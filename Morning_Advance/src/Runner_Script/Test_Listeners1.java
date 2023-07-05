@@ -4,7 +4,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class Test_Listeners1 implements ITestListener {
-
+//here we are oveeriding the listeners
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println("tc is started");
